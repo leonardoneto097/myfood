@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Carrinho</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style-home.css">
+    <link rel="stylesheet" href="../cardapio/cardapio-style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Icones -->
+    <script src="https://kit.fontawesome.com/b9c9f47f3d.js"></script>
+
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="../img/logo.png" style="height: 80px;width: 80px;margin: -30px"
+                alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../home.html#slide-fornecedores">Fornecedores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../carrinho/carrinho.html">Carrinho</a>
+                </li>
+
+                <form id="form-pesquisa" class="form-inline my-2 my-lg-0">
+
+                    <a href="../pesquisa/pesquisa.html"><i style="margin-right: 10px;text-decoration: none;color:white;"
+                            class="fas fa-search"></i></a>
+
+
+                    <input style="border:none; box-shadow: 0 0 0 0;border: 0 none;outline: 0;color:white;"
+                        id="input-pesquisa" class="form-control mr-sm-2" type="search" placeholder=" Pesquisar"
+                        aria-label="Search">
+
+                </form>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Filtros
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Sobremesa</a>
+                        <a class="dropdown-item" href="#">Hamburguer</a>
+                        <a class="dropdown-item" href="#">Pizza</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+
+
+
+        <img onclick="showNav2()" id="persona" style="height: 50px;width:50px;" src="../img/home/persona.png" alt="">
+        <ul class="navbar-nav ">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" onclick="showNav()">
+                    Nome
+                </a>
+            </li>
+        </ul>
+
+        </div>
+
+    </nav>
+
+    <div id="nav-vertical-fornecedor">
+        <img style="color:#F95F62;height: 40px;width: 40px;float: right;" onclick="escondeNav()"
+            src="../img/home/times-solid.svg" alt="">
+
+
+        <nav style="margin-top: 50px;" class="nav flex-column">
+            <a class="nav-link" href="../edicao-de-perfil/edit-perfil-fornecedor.html">Editar Perfil</a>
+            <a class="nav-link" href="../historico/historico-pedidos-realizados.html">Pedidos Realizados</a>
+            <a class="nav-link" href="../historico/historico-pedidos-recebidos.html">Pedidos Recebidos</a>
+            <a class="nav-link" href="../cardapio/listar-cardapio.html">Cardápio</a>
+            <a class="nav-link " href="../login.html">Sair</a>
+        </nav>
+    </div>
+    <div id="nav-vertical-cliente">
+        <img style="color:#F95F62;height: 40px;width: 40px;float: right;" onclick="escondeNav2()"
+            src="../img/home/times-solid.svg" alt="">
+
+
+        <nav style="margin-top: 50px;" class="nav flex-column">
+            <a class="nav-link" href="../edicao-de-perfil/edit-perfil-cliente.html">Editar Perfil</a>
+            <a class="nav-link" href="../historico/historico-pedidos-realizados.html">Pedidos Realizados</a>
+            <a class="nav-link " href="../login.html">Sair</a>
+        </nav>
+    </div>
+    <!-- Fim NavBar -->
+
+
+    <!-- Section carrinho -->
+    <section style="padding: 60px !important;height: 600px;" id="form-produto">
+        <div align="initial">
+            <p style="text-align: center"class="h2">Itens do Carrinho</p>
+        </div>
+        <div style="overflow: auto; width: 100%; height: 40%; border:none">
+            <table class="table table-hover p-3 mb-2  text-white">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="pizza">
+                        <th scope="row"><a href=""><img class="img" src="../img/pratos/pizza.jpg"
+                                    style="height: 150px;width: 200px;margin: -5px" alt=""></a></th>
+                        <td>Pizza La Ppeti Grande 2 sabores<br>R$48,00</td>
+                        <td align="center">
+                            Quantidade: <input type="number" value="1" min="1" max="14" id="qtd1"
+                                style="height: 40px;width: 80px;margin: -3px "
+                                onclick="AddCarrinho(document.getElementById('qtd1').value, '48.00', 1)">
+
+
+
+
+
+                        </td>
+                        <td><strong>R$ 48,00</strong><br></td>
+                        <td><img onclick=check(this.form) class="img-footer" src="../img/home/lx3.png" alt=""></td>
+                        <!--ADD imagem lixeira-->
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </div>
+        <div style="width: 100%;height: 1px;background-color: white;margin-bottom: 10px;"></div>
+        <div class="row">
+            <div style="text-align: initial !important" class="col-6">
+                <h4>Tipo de Pagamento</h4>
+            </div>
+            <div class="col-6">
+                <div style="text-align: initial !important" class="row">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Cartão</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: initial !important; margin-bottom: 50px;" class="row">
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Dinheiro</label>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: initial !important"  class="row">
+                    <div class="col-6">
+                        <h4>Entrega</h4>
+                    </div>
+                    <div class="col-6">
+                        <h4>R$ 5,00</h4>
+                    </div>
+                </div>
+                <div style="text-align: initial !important;margin-bottom: 20px;"  class="row">
+                    <div class="col-6">
+                        <h4>TOTAL</h4>
+                    </div>
+                    <div class="col-6">
+                        <h4>R$ 52,00</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <a href="../home.html#slide-fornecedores"><button
+                        style="height: 70px;;border-radius: 5px !important;width: 100%;;" type="submit"
+                        class="btn btn-primary btn-submeter">
+                        <h5>Continuar Comprando</h5>
+                    </button></a>
+            </div>
+            <div class="col-6">
+                <a href="../historico/historico-pedidos-realizados.html"><button
+                        style="height: 70px;border-radius: 5px !important;width: 100%;; type=" submit"
+                        class="btn btn-primary btn-submeter">
+                        <h5>Finalizar Compra</h5>
+                    </button></a>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Cadastrar Produto -->
+    <!-- Fim Section Carrinho -->
+    <footer>
+        <div class="row">
+            <div class="col-2">
+                <img id="logo-footer" src="../img/logo-branca.png" alt="">
+            </div>
+            <div class="col-2"></div>
+            <div id="links-footer" class="col-2">
+                <a href="../home.html">Home</a><br>
+                <a href="../home.html#slide-forcedores">Fornecedores</a><br>
+                <a href="../carrinho/carrinho.html">Carrinho</a><br>
+                <a href="../pesquisa/pesquisa.html">Pesquisa</a>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-4">
+                <h1>Fale Conosco</h1>
+                <a href=""> <img class="img-footer" src="../img/home/footer/face.png" alt=""></a>
+                <a href=""><img class="img-footer" src="../img/home/footer/instagram.png" alt=""></a>
+                <a href=""><img class="img-footer" src="../img/home/footer/twitter.png" alt=""></a>
+                <a href=""><img class="img-footer" src="../img/home/footer/youtube.png" alt=""></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script language="JavaScript">
+        function check(form) {
+            document.getElementById('pizza').remove()
+        }
+    </script>
+
+    <script>
+        function showNav() {
+            document.getElementById("nav-vertical-fornecedor").style.display = "block";
+        }
+
+        function escondeNav() {
+            document.getElementById("nav-vertical-fornecedor").style.display = "none";
+        }
+
+        function showNav2() {
+            document.getElementById("nav-vertical-cliente").style.display = "block";
+        }
+
+        function escondeNav2() {
+            document.getElementById("nav-vertical-cliente").style.display = "none";
+        }
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
