@@ -1,0 +1,25 @@
+#cadastro{
+    text-align: center;
+}
+#div-form{
+    margin-top:50px ;
+    height: 300px;
+    border: none !important;
+}
+#btns-tipos{
+    margin-top: 30px;
+}
+#btn-fornecedor{
+    background-color: #77D353;
+    width: 100%;
+    border-radius: 20px;
+}
+#btn-cliente{
+    background-color: #FF9052;
+    width: 100%;
+    border-radius:20px;
+}
+#proximo{
+    background-color: #77D353 !important;
+    margin-bottom: 0px !important;
+}
