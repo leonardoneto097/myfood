@@ -1,0 +1,53 @@
+h3{
+    text-align: initial;
+}
+form{
+    margin-top: 20px;
+}
+#edit-perfil-form{
+    background-color: #F95F62;
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius:30px;
+    padding: 30px; 
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
+#edit-perfil-form-fornecedor{
+    background-color: #F95F62;
+    width: 60%;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius:30px;
+    padding: 30px; 
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}   
+#img-produto-edit{
+    border-radius: 30px;
+    width: 150px;
+    height: 150px;
+}
+.form-crud-produto{
+    margin: 30px;
+}
+.btn-submeter{
+    border-radius: 90px !important;
+    width: 40%;
+    background-color:#77D353 !important;
+    border: none !important;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#input-img{
+    background-color: white;
+    border-radius: 30px;
+    width: 40%;
+}
