@@ -45,6 +45,8 @@ sudo mv myfood/* /var/www/html
 systemctl start apache2
 ```
 
+No seu Browser acesse o ip local onde a máquina foi instalada. 
+
 
 
 
