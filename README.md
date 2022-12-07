@@ -1,5 +1,5 @@
 # Myfood
-![My Image](img/logo.png | width=100 )
+![My Image](img/logo.png | width=100)
 ## 1 Concepção do sistema:
 
   O sistema tem como objetivo fornecer um meio de comunicação entre os usuários de ativos, de consumo e de demanda do restaurantes e lanchonetes cadastrada no sistema para os habitantes locais. Onde irá abranger principalmente jovens que é o nosso público alvo, logo em seguida os demais moradores de uma cidade, e futuramente abranger todo um nicho maior de pessoas, expandido nossos serviços e satisfazendo a demanda dos clientes.
