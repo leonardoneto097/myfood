@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-image: url('./img/background.jpeg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    
+
+}
+/* NavBar */
+#img-logo-nav{
+    width: 50px;
+    height: 50px;
+}
+#input-pesquisa{
+    background-color: #F95F62;
+}
+#input-pesquisa::-webkit-input-placeholder {
+    color: white;
+ }
+
+ /* NavVertical */
+ #nav-vertical{
+    float: right;
+    background-color: white;
+    height: 90vh;
+    width: 200px;
+    display: none;
+    
+ }
+ .nav-link{
+    color: black !important;
+    text-decoration: none !important;
+ }
+/* Login */
+#login{
+    text-align: center;
+}
+#div-form{
+    padding: 30px 50px 10px 50px;
+    border-radius: 5px;
+    border: gray solid 1px;
+    background-color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    
+}
+.form-radius{
+    border: black solid 1px !important;
+    border-radius: 90px !important;
+    width: 50px;
+}
+.form-radius-text-area{
+    border: black solid 1px !important;
+    border-radius: 30px !important;
+    width: 50px;
+    margin-bottom: 30px;
+}
+.btn-submeter{
+    border-radius: 90px !important;
+    width: 100%;
+    background-color:#47525E !important;
+    border: none !important;
+    margin-bottom: 10px;
+}
+#logo{
+    width: 250px;
+    height: 250px;
+    margin-bottom: -150px;
+   
+}
+#churrasqueira{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
