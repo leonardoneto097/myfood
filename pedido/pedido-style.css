@@ -1,0 +1,19 @@
+
+ .card-deck{
+     margin: 50px !important;
+     text-align: justify;
+     margin-top: 0px !important;
+ }
+ .card{
+    border: none !important;
+ }
+ .card-body{
+    
+     background-color: #f95f62;
+     padding: 0px !important;
+     padding-top: 30px !important;
+ }
+ #col-form-pedido{
+    padding-right: 70px;
+    padding-left: 70px;
+ }
