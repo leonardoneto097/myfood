@@ -1,0 +1,19 @@
+body{
+    overflow-x: hidden;
+}
+#fornecedor{
+    height: 500px;
+}
+#foto-fornecedor{
+    width: 100%;
+    height: 500px;
+    background-image: url('../img/fornecedores/pizza-da-boa.png');
+}
+#texto-fornecedor{
+    padding:120px;
+    color: white;
+    text-align: justify;
+}
+#texto-fornecedor h1{
+    text-align: center;
+}
