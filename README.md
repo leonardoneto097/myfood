@@ -17,7 +17,9 @@ Cadastrar Usuário: Como um usuário de um sistema de delivery eu quero me cadas
 
 ![My Image](img/logon.png) 
 
-Modificar dados de Usuário: Como um usuário de um sistema de delivery, eu quero poder alterar meus dados cadastrados, para que eu possa personalizar minha conta, seja por motivos de segurança ou motivos estéticos
+Modificar dados de Usuário: Como um usuário de um sistema de delivery, eu quero poder alterar meus dados cadastrados, para que eu possa personalizar minha conta, seja por motivos de segurança ou motivos estéticos.
+
+![My Image](img/modify.png) 
  
 Logout: Como um usuário de um sistema de  delivery, eu quero deslogar do sistema para que eu possa ter maior segurança ao usar a aplicação em dispositivos compartilhados com outras pessoas.
 
