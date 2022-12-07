@@ -13,7 +13,9 @@ Foi implementado algumas funcionalidades basicas mas algumas ainda estão sendo 
 
 Cadastrar Usuário: Como um usuário de um sistema de delivery eu quero me cadastrar no sistema delivery, para que eu possa usa-lo a fim de otimizar o meu tempo, ganhando comodidade e praticidade.
 
-Login: Como um usuário de um sistema de  delivery eu quero logar no sistema para que eu posso ter acesso às suas funcionalidades.
+###Login: Como um usuário de um sistema de  delivery eu quero logar no sistema para que eu posso ter acesso às suas funcionalidades. 
+
+![My Image](img/login.png)
 
 Modificar dados de Usuário: Como um usuário de um sistema de delivery, eu quero poder alterar meus dados cadastrados, para que eu possa personalizar minha conta, seja por motivos de segurança ou motivos estéticos
  
