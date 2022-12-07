@@ -25,17 +25,10 @@ Logout: Como um usuário de um sistema de  delivery, eu quero deslogar do sistem
 
 Filtrar Produtos: Eu quero poder filtrar as minhas pesquisas por produtos no sistema, para que eu possa facilitar a minha pesquisa por categorias
 
-Realizar Pedido:
-Fornecer Avaliação de Pedido: 
-Histórico de pedidos:
-Status do Pedido:
-Selecionar o tipo de pagamento:
-Adicionar ao Carrinho:
-Alterar Itens do Carrinho:
-Cadastro de Fornecedor:
-Cadastrar Item no Cardápio:
-Excluir item do Cardápio:
-Modificar item do Cardápio:
+Realizar Pedido: Como um usuário de um sistema de  delivery, eu quero poder realizar um pedido no sistema, para que eu possa facilitar o processo de compra, podendo escolher várias quantidades e variedades em único pedido.
+
+![My Image](img/realizarpedido.png) 
+
 
 
 
