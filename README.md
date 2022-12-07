@@ -29,9 +29,9 @@ Realizar Pedido: Como um usuário de um sistema de  delivery, eu quero poder rea
 
 ![My Image](img/realizarpedido.png) 
 
-## 3 Lista de Ferramentas: Apache, Sublime, Atom, Navegador de Internet, Bootstrap 4
-## 4 Linguagems: HTML5, CSS3
-## 5 Protótipo Funcional (Prototipação de alta fidelidade) : https://marvelapp.com/prototype/7408aaa/screen/89895658
+## 3 Lista de Ferramentas:``` Apache, Sublime, Atom, Navegador de Internet, Bootstrap 4```
+## 4 Linguagems:```HTML5, CSS3```
+## 5 Protótipo Funcional (Prototipação de alta fidelidade) : ```https://marvelapp.com/prototype/7408aaa/screen/89895658```
 ## 6 Build Para iniciar o serviço com o servidor apache2 siga os seguintes comandos: 
 ```
 apt install git zsh apache2 -y
