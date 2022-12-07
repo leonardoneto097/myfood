@@ -32,9 +32,15 @@ Realizar Pedido: Como um usuário de um sistema de  delivery, eu quero poder rea
 ## 3 Lista de Ferramentas: Apache, Sublime, Atom, Navegador de Internet, Bootstrap 4
 ## 4 Linguagems: HTML5, CSS3
 ## 5 Protótipo Funcional (Prototipação de alta fidelidade) : https://marvelapp.com/prototype/7408aaa/screen/89895658
-## 6 Build 
-
-
+## 6 Build Para iniciar o serviço com o servidor apache2 siga os seguintes comandos: 
+```
+apt install git zsh apache2 -y
+sudo rm -rf /var/www/html/*
+cd /var/www/html
+git clone https://github.com/leonardoneto097/myfood.git
+sudo mv myfood/* /var/www/html
+systemctl start apache2
+```
 
 
 
