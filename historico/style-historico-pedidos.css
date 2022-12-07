@@ -1,0 +1,154 @@
+#historico{
+    background-color: #e5e9f2;
+    height: 700px;
+    padding-top: 50px;;
+}
+.img-forncedor-historico{
+    height: 100px;
+    width: 100px;
+    border-radius:100%; 
+}
+.col-img-fornecedor{
+   text-align: end;
+}
+#img-col{
+    background-image: url(./img/prato.png);
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position-x: 30%;
+    background-position-y: center;
+}
+#status{
+    background-color: #ffba5c;
+    padding-top: 7px;
+    text-align: center;
+    border-radius:10px; 
+    height: 35px;
+}
+#status-entregue{
+    background-color: #77d353;
+    padding-top: 7px;
+    text-align: center;
+    border-radius:10px; 
+    height: 35px;
+    color:white;
+}
+#status h6{
+    font-size: 15px;
+    color: white;
+}
+.seta{
+    height: 15px;
+    width: 20px;
+}
+#titulo{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.row-pedido{
+    margin-bottom: 40px !important;
+}
+/* Estrelas */
+/* Tente assim, com base neste exemplo: */
+
+input[type=checkbox] {
+  display:none;
+}
+input[type=checkbox] + label {
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    display:inline-block;
+}
+input#estrela1 + label {
+  background-image: url('./img/estrelapreta.png');
+}
+input#estrela1:checked + label {
+    background-image: url('./img/estrelaamarela.png');
+}
+input#estrela2 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela2:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela3 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela3:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela4 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela4:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela5 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela5:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela6 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela6:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela7 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela7:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela8 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela8:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela9 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela9:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela10 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela10:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela11 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela11:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela12 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela12:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela13 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela13:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela14 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela14:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
+  input#estrela15 + label {
+    background-image: url('./img/estrelapreta.png');
+  }
+  input#estrela15:checked + label {
+      background-image: url('./img/estrelaamarela.png');
+  }
