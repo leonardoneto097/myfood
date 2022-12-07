@@ -1,4 +1,5 @@
 # Myfood
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 Concepção do sistema:
 
   O sistema tem como objetivo fornecer um meio de comunicação entre os usuários de ativos, de consumo e de demanda do restaurantes e lanchonetes cadastrada no sistema para os habitantes locais. Onde irá abranger principalmente jovens que é o nosso público alvo, logo em seguida os demais moradores de uma cidade, e futuramente abranger todo um nicho maior de pessoas, expandido nossos serviços e satisfazendo a demanda dos clientes.
@@ -10,27 +11,27 @@ Funcionalidade:
 
 Foi implementado algumas funcionalidades basicas mas algumas ainda estão sendo implementadas definitivamente como: 
 
-## Cadastrar Usuário: Como um usuário de um sistema de delivery eu quero me cadastrar no sistema delivery, para que eu possa usa-lo a fim de otimizar o meu tempo, ganhando comodidade e praticidade.
+Cadastrar Usuário: Como um usuário de um sistema de delivery eu quero me cadastrar no sistema delivery, para que eu possa usa-lo a fim de otimizar o meu tempo, ganhando comodidade e praticidade.
 
-## Login: Como um usuário de um sistema de  delivery eu quero logar no sistema para que eu posso ter acesso às suas funcionalidades.
+Login: Como um usuário de um sistema de  delivery eu quero logar no sistema para que eu posso ter acesso às suas funcionalidades.
 
-## Modificar dados de Usuário: Como um usuário de um sistema de delivery, eu quero poder alterar meus dados cadastrados, para que eu possa personalizar minha conta, seja por motivos de segurança ou motivos estéticos
+Modificar dados de Usuário: Como um usuário de um sistema de delivery, eu quero poder alterar meus dados cadastrados, para que eu possa personalizar minha conta, seja por motivos de segurança ou motivos estéticos
  
-## Logout: Como um usuário de um sistema de  delivery, eu quero deslogar do sistema para que eu possa ter maior segurança ao usar a aplicação em dispositivos compartilhados com outras pessoas.
+Logout: Como um usuário de um sistema de  delivery, eu quero deslogar do sistema para que eu possa ter maior segurança ao usar a aplicação em dispositivos compartilhados com outras pessoas.
 
-## Filtrar Produtos: Eu quero poder filtrar as minhas pesquisas por produtos no sistema, para que eu possa facilitar a minha pesquisa por categorias
+Filtrar Produtos: Eu quero poder filtrar as minhas pesquisas por produtos no sistema, para que eu possa facilitar a minha pesquisa por categorias
 
-## Realizar Pedido:
-## Fornecer Avaliação de Pedido: 
-## Histórico de pedidos:
-## Status do Pedido:
-## Selecionar o tipo de pagamento:
-## Adicionar ao Carrinho:
-## Alterar Itens do Carrinho:
-## Cadastro de Fornecedor:
-## Cadastrar Item no Cardápio:
-## Excluir item do Cardápio:
-## Modificar item do Cardápio:
+Realizar Pedido:
+Fornecer Avaliação de Pedido: 
+Histórico de pedidos:
+Status do Pedido:
+Selecionar o tipo de pagamento:
+Adicionar ao Carrinho:
+Alterar Itens do Carrinho:
+Cadastro de Fornecedor:
+Cadastrar Item no Cardápio:
+Excluir item do Cardápio:
+Modificar item do Cardápio:
 
 
 
